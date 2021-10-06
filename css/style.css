@@ -7,7 +7,7 @@
 
 
 body{
-  margin: 0%;
+  margin: 10 0 10 0;
     padding: 0%;
 }
 
@@ -23,9 +23,11 @@ padding: 3px;
 /*display: flex;*/
 border-bottom: rgb(230, 240, 237) solid 3px;
 }
-
+.logo{
+  display: flex;
+}
 #logo{
-position: relative;
+position: absolute;
   display: flex;
   left: 11em;
   top: 3em;
@@ -59,7 +61,7 @@ h1{
 
 .main_1{
   background-color: rgb(251,251,251);
-  border-bottom: rgb(175, 187, 187) solid 10px;
+  border-bottom: rgb(175, 187, 187) solid 3px;
 display: block
 }
 h2{
@@ -72,7 +74,7 @@ margin-bottom: 5%;
 .logo_1{
 margin-left: 50%;
   justify-content: center;
-  color: antiquewhite;
+  color: rgb(82, 81, 81);
 }
 
 #picture1{
@@ -80,7 +82,7 @@ margin-left: 50%;
 }
 .class3{
 padding: 0%;
-  border-bottom: rgb(160, 160, 154) solid 10px;
+  border-bottom: rgb(160, 160, 154) solid 3px;
   
   vertical-align: middle;
   width: auto;
@@ -105,7 +107,7 @@ padding: 0%;
 }
 
 .ultrice{
-   border-bottom: rgb(112, 117, 117) solid 10px;
+   border-bottom: rgb(112, 117, 117) solid 3px;
    padding: 1%;
    width: 100%;
    height: 20em;
@@ -124,7 +126,7 @@ padding-left: 30px;
 }
 
 .aliquam{
-  border-bottom: rgb(119, 113, 112) solid 10px;
+  border-bottom: rgb(119, 113, 112) solid 3px;
   padding: 1%;
    width: 100%;
    height: 20em;
@@ -143,7 +145,7 @@ top: -10em;
 }
 
 .class6{
-  border-bottom: rgb(127, 134, 134) solid 10px;
+  border-bottom: rgb(127, 134, 134) solid 3px;
   padding: 1%;
   width: 100%;
   height: 20em;
@@ -164,7 +166,7 @@ top: -10em;
 
 .magna__1{
 
-  border-bottom: rgb(100, 105, 102) solid 10px;
+  border-bottom: rgb(100, 105, 102) solid 3px;
   padding: 1%;
   width: 100%;
   height: 20em;
@@ -226,7 +228,7 @@ top: -10em;
 
 }
 footer{
-  border-bottom: rgb(116, 116, 117) solid 10px;
+  border-bottom: rgb(116, 116, 117) solid 3px;
 }
 .copy {
   display: inline;
@@ -234,90 +236,22 @@ footer{
 }
 
 @media screen and (max-width:640px) {
-  header{
-    width: 100%;
-    height: 50%;
+  /* je n'ai pas encore trouver la solution pour faire apparaitre mon logo de téléphone*/
+.Logo{
+display: inline;
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+  .class3{
+    margin-top: 50%;
+    
+
+
   }
- 
   
   
-  
-  
-  .logo{
-    background-color: plum;
-   display: flex;
-   justify-content: space-around;
-    width: 100%;
-    height: 30%;
-    
-    
-    
-  }
+
 
 }
 
-@media screen and (max-width:780px){
-  body{
-    width: 100%;
-    background-color: olive;
-  }
-  .logo, .main_1,.class3, .ultrice, .aliquam, .class6, .magna__1,.copy {
-    width: 100%;
-    height: 50%;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-block: 50%;
-    
-    border-bottom: none;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-    
-  }
-  #logo{
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
-    right: 10%;
-    left: 50%;
-  }
-  }
- @media screen and(min-width:781px) and (max-width:1366) {
-   body{
-     width: 10%;
-     height: 20%;
-    
-    background-color: plum;
-
-   }
-   .header{
-     font-size: 12px;
-    position: relative;
-    margin-left: 0%;
-    margin-top: 3%;
-    margin-bottom: 30%;
-    text-align: left;
-    top: 7em;
-    left: 0%;
-   
-   }
-   
-  .logo, .main_1,.class3, .ultrice, .aliquam, .class6, .magna__1,.copy {
-    width: 50%;
-    height: 50%;
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    overflow-block: 50%;
-    
-    
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 0%;
-    
-  
- }
-  

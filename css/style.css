@@ -6,7 +6,10 @@
 }
 
 
-
+body{
+  margin: 0%;
+    padding: 0%;
+}
 
 
 
@@ -24,10 +27,10 @@ border-bottom: rgb(230, 240, 237) solid 3px;
 #logo{
 position: relative;
   display: flex;
-  left: 30em;
+  left: 11em;
   top: 3em;
   margin: 10px;
-  margin-left: 20em;
+  margin-left: 35em;
   
 }
 
@@ -37,7 +40,6 @@ position: absolute;
   margin-top: 3%;
   margin-bottom: 300em;
   text-align: center;
-  word-spacing: 2%;
   top: 7em;
   left: 10%;
  
@@ -57,7 +59,7 @@ h1{
 
 .main_1{
   background-color: rgb(251,251,251);
-  border-bottom: aqua solid 10px;
+  border-bottom: rgb(175, 187, 187) solid 10px;
 display: block
 }
 h2{
@@ -78,7 +80,7 @@ margin-left: 50%;
 }
 .class3{
 padding: 0%;
-  border-bottom: rgb(20, 20, 19) solid 10px;
+  border-bottom: rgb(160, 160, 154) solid 10px;
   
   vertical-align: middle;
   width: auto;
@@ -103,7 +105,7 @@ padding: 0%;
 }
 
 .ultrice{
-   border-bottom: teal solid 10px;
+   border-bottom: rgb(112, 117, 117) solid 10px;
    padding: 1%;
    width: 100%;
    height: 20em;
@@ -122,7 +124,7 @@ padding-left: 30px;
 }
 
 .aliquam{
-  border-bottom: tomato solid 10px;
+  border-bottom: rgb(119, 113, 112) solid 10px;
   padding: 1%;
    width: 100%;
    height: 20em;
@@ -141,7 +143,7 @@ top: -10em;
 }
 
 .class6{
-  border-bottom: turquoise solid 10px;
+  border-bottom: rgb(127, 134, 134) solid 10px;
   padding: 1%;
   width: 100%;
   height: 20em;
@@ -162,7 +164,7 @@ top: -10em;
 
 .magna__1{
 
-  border-bottom: springgreen solid 10px;
+  border-bottom: rgb(100, 105, 102) solid 10px;
   padding: 1%;
   width: 100%;
   height: 20em;
@@ -188,7 +190,7 @@ top: -10em;
 
 .down_1{
 
-  background-color: #4425b4; /* Green */
+  background-color: #4425b4; 
   border: none;
   color: white;
   padding: 5px 2px;
@@ -207,7 +209,7 @@ top: -10em;
 
 .learn{
 
-  background-color: #4425b4; /* Green */
+  background-color: #4425b4; 
   border: none;
   color: white;
   padding: 5px 2px;
@@ -224,9 +226,98 @@ top: -10em;
 
 }
 footer{
-  border-bottom: blue solid 10px;
+  border-bottom: rgb(116, 116, 117) solid 10px;
 }
 .copy {
   display: inline;
   text-align: center;
 }
+
+@media screen and (max-width:640px) {
+  header{
+    width: 100%;
+    height: 50%;
+  }
+ 
+  
+  
+  
+  
+  .logo{
+    background-color: plum;
+   display: flex;
+   justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    
+    
+    
+  }
+
+}
+
+@media screen and (max-width:780px){
+  body{
+    width: 100%;
+    background-color: olive;
+  }
+  .logo, .main_1,.class3, .ultrice, .aliquam, .class6, .magna__1,.copy {
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-block: 50%;
+    
+    border-bottom: none;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    
+  }
+  #logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    right: 10%;
+    left: 50%;
+  }
+  }
+ @media screen and(min-width:781px) and (max-width:1366) {
+   body{
+     width: 10%;
+     height: 20%;
+    
+    background-color: plum;
+
+   }
+   .header{
+     font-size: 12px;
+    position: relative;
+    margin-left: 0%;
+    margin-top: 3%;
+    margin-bottom: 30%;
+    text-align: left;
+    top: 7em;
+    left: 0%;
+   
+   }
+   
+  .logo, .main_1,.class3, .ultrice, .aliquam, .class6, .magna__1,.copy {
+    width: 50%;
+    height: 50%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-block: 50%;
+    
+    
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    
+  
+ }
+  
